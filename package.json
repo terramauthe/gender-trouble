@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "name": "gender-trouble",
+  "description": "Helping to measure and share the experiences of different genders in tech.",
+  "version": "0.1.0",
+  "main": "gender-trouble.js",
+  "scripts": {
+    "build": "tsc src/index.ts --outfile gender-trouble.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terramauthe/gender-trouble.git"
+  },
+  "author": "terraboops",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/terramauthe/gender-trouble/issues"
+  },
+  "homepage": "https://github.com/terramauthe/gender-trouble#readme"
+}

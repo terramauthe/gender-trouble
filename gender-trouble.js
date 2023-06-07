@@ -1,1 +1,1 @@
-alert('to operate within the matrix of power is not the same as to replicate uncritically relations of domination');
+alert('hello');
