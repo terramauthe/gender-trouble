@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Gender Trouble",
+  "version": "0.1",
+
+  "description": "Helping to measure and share the experiences of different genders in tech.",
+
+  "icons": {
+    "48": "48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.github.com/*",
+        "*://*.workday.com/*"
+      ],
+      "js": ["gender-trouble.js"]
+    }
+  ]
+
+}
